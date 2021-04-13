@@ -1,4 +1,4 @@
 FROM python:3
-RUN pip install flask 
+RUN pip install flask
 CMD ["python", "app.py"]
 COPY app.py /app.py
